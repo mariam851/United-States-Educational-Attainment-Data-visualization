@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+.county {
+  stroke: white;
+  stroke-width: 0.5;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+}
